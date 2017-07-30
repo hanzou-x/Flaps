@@ -142,13 +142,13 @@ as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
 
-    -mmacosx-version-min=10.5 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+    -mmacosx-version-min=10.9 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.12.sdk
 
 For MacPorts, that means editing your macports.conf and setting
 `macosx_deployment_target` and `build_arch`:
 
-    macosx_deployment_target=10.5
-    build_arch=i386
+    macosx_deployment_target=10.9
+    build_arch=x86_64
 
 ... and then uninstalling and re-installing, or simply rebuilding, all ports.
 
