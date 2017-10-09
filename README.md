@@ -1,6 +1,6 @@
 FlappyCoin 
 ================================
-Current version: 3.2.1
+Current version: 3.4.3
 
 Copyright (c) 2017 Bitcoin Developers
 
