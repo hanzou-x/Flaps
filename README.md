@@ -1,8 +1,8 @@
 FlappyCoin 
 ================================
-Current version: 3.4.3
+Current version: 3.4.3 RC1
 
-Copyright (c) 2017 Bitcoin Developers
+Copyright (c) 8888 Bitcoin Developers
 
 Copyright (c) 2017 FlappyCoin Developers
 
