@@ -44,7 +44,7 @@ namespace Checkpoints
             ( 699999, uint256("0x3e7e5966896fab71c67fc488974b9672a560f699d85f97f10d85fde07d3fbaa72"))
             ( 779003, uint256("0x588617418685cd41b5cffb1cdb8110c50a8b43e61213032fa3b63e7c2702f992"))
             ( 779459, uint256("0x5b920fcef8edd323ae029403f754d005347f846dad3728159a570cffd8613e78"))
-
+            ( 887700, uint256("0x5f23fdda99e421d94633e250d62392e98687e3c693d5f5eaf9116f02946b0a06d"))
 
         ;
     static const CCheckpointData data = {
@@ -63,6 +63,7 @@ namespace Checkpoints
             ( 699999, uint256("0x3e7e5966896fab71c67fc488974b9672a560f699d85f97f10d85fde07d3fbaa72"))
             ( 779003, uint256("0x588617418685cd41b5cffb1cdb8110c50a8b43e61213032fa3b63e7c2702f992"))
             ( 779459, uint256("0x5b920fcef8edd323ae029403f754d005347f846dad3728159a570cffd8613e78"))
+            ( 887700, uint256("0x5f23fdda99e421d94633e250d62392e98687e3c693d5f5eaf9116f02946b0a06d"))
 
         ;
     static const CCheckpointData dataTestnet = {
