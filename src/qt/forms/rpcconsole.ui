@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Flappycoin - Debug window</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog { background: transparent; }</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <widget class="QTabWidget" name="tabWidget">
