@@ -1076,7 +1076,7 @@ int static generateMTRandom(unsigned int s, int range)
 
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
-    int64 nSubsidy = 50 * COIN;
+    int64 nSubsidy = 1000 * COIN;
 
     std::string cseed_str = prevHash.ToString().substr(7,7);
     const char* cseed = cseed_str.c_str();
@@ -1149,11 +1149,104 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy = 12500 * COIN;
     }
-    else if(nHeight < 925000)
+    else if(nHeight < 903000)
     {
         nSubsidy = 100 * COIN;
     }
+    else if(nHeight < 913080)
+    {
+        nSubsidy = 34333 * COIN;
+    }
+    else if(nHeight < 914420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 915860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 936020)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 936420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 937860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 947940)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 948420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 949860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 959940)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 960420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 961860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 981990)
+    {
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1000000)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1010080)
+    {
+        nSubsidy =  992063 * COIN;
+    }
+    else if(nHeight < 1011420)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1012860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
+    else if(nHeight < 1022940)
+    {
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1023420)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1024860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
+    else if(nHeight < 1034940)
+    {
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1035420)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1036860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
     return nSubsidy + nFees;
+
 }
 
 static const int64 nTargetTimespan = 4 * 60 * 60; // FlappyCoin: every 4 hours
