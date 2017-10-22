@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>QR Code Dialog</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">QDialog { background: transparent; }</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <widget class="QLabel" name="lblQRCode">
