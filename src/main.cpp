@@ -1201,9 +1201,53 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy = 420000 * COIN;
     }
-    else if(nHeight < 925940)
+    else if(nHeight < 981990)
     {
-        nSubsidy =  * COIN;
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1000000)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1010080)
+    {
+        nSubsidy =  992063 * COIN;
+    }
+    else if(nHeight < 1011420)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1012860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
+    else if(nHeight < 1022940)
+    {
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1023240)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1024860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
+    else if(nHeight < 1034940)
+    {
+        nSubsidy =  35000 * COIN;
+    }
+    else if(nHeight < 1035420)
+    {
+        nSubsidy =  1000 * COIN;
+    }
+    else if(nHeight < 1036860)
+    {
+        nSubsidy =  420000 * COIN;
+    }
+    else if(nHeight < 1036861)
+    {
+        nSubsidy =  1000 * COIN;
     }
     return nSubsidy + nFees;
 
