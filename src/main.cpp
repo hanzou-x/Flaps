@@ -1225,7 +1225,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy =  35000 * COIN;
     }
-    else if(nHeight < 1023240)
+    else if(nHeight < 1023420)
     {
         nSubsidy =  1000 * COIN;
     }
