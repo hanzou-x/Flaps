@@ -1149,11 +1149,64 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy = 12500 * COIN;
     }
-    else if(nHeight < 925000)
+    else if(nHeight < 903000)
     {
         nSubsidy = 100 * COIN;
     }
+    else if(nHeight < 913080)
+    {
+        nSubsidy = 34333 * COIN;
+    }
+    else if(nHeight < 914420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 915860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 936020)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 936420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 937860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 947940)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 948420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 949860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 959940)
+    {
+        nSubsidy = 35000 * COIN;
+    }
+    else if(nHeight < 960420)
+    {
+        nSubsidy = 1000 * COIN;
+    }
+    else if(nHeight < 961860)
+    {
+        nSubsidy = 420000 * COIN;
+    }
+    else if(nHeight < 925940)
+    {
+        nSubsidy =  * COIN;
+    }
     return nSubsidy + nFees;
+
 }
 
 static const int64 nTargetTimespan = 4 * 60 * 60; // FlappyCoin: every 4 hours
