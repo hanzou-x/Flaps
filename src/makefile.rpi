@@ -2,6 +2,8 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+STATIC = 1
+
 BOOST_LIB_PATH := /opt/x-tools/rpi/lib
 BOOST_INCLUDE_PATH := /opt/x-tools/rpi/include
 OPENSSL_LIB_PATH := /opt/x-tools/rpi/lib
