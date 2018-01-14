@@ -29,7 +29,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.flappycoinfoundation.FlappyCoin-Qt</string>
+  <string>org.flappycoin.FlappyCoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
