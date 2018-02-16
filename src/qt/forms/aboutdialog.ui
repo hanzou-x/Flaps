@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>773</width>
-    <height>453</height>
+    <height>375</height>
    </rect>
   </property>
   <property name="palette">
@@ -81,27 +81,7 @@
    <string notr="true"/>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0" rowspan="12">
-    <widget class="QLabel" name="label_4">
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="pixmap">
-      <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="1">
-    <widget class="QLabel" name="label_8">
-     <property name="text">
-      <string>EXTRA THANKS TO:</string>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="2" rowspan="4">
+   <item row="0" column="2" rowspan="2">
     <spacer name="verticalSpacer_2">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -114,115 +94,7 @@
      </property>
     </spacer>
    </item>
-   <item row="1" column="1">
-    <widget class="QLabel" name="label_5">
-     <property name="palette">
-      <palette>
-       <active>
-        <colorrole role="WindowText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>0</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </brush>
-        </colorrole>
-        <colorrole role="Text">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>0</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </active>
-       <inactive>
-        <colorrole role="WindowText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>0</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </brush>
-        </colorrole>
-        <colorrole role="Text">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>0</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </inactive>
-       <disabled>
-        <colorrole role="WindowText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>159</red>
-           <green>158</green>
-           <blue>158</blue>
-          </color>
-         </brush>
-        </colorrole>
-        <colorrole role="Text">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>159</red>
-           <green>158</green>
-           <blue>158</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </disabled>
-      </palette>
-     </property>
-     <property name="text">
-      <string>WAYA,DaGoofMan,UKMahem,Beirdo,Blurb,ladysatoshie,</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="1">
-    <widget class="QLabel" name="label_6">
-     <property name="text">
-      <string>RON,Milk&amp;Pie4U,NerdLifemines,sparker327,nitro,jw,markpaul099,RAFFLER</string>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="1">
-    <widget class="QLabel" name="label_7">
-     <property name="text">
-      <string>SHOTGUN,Blundertoe,regtable,FlappyFlapping &amp; more   Thank You SOOOO Much</string>
-     </property>
-    </widget>
-   </item>
    <item row="4" column="1">
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QLabel" name="label_3">
-       <property name="font">
-        <font>
-         <pointsize>15</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>FlappyCoin v4.1 RC1</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
-   <item row="5" column="1" colspan="2">
-    <widget class="Line" name="line">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-   </item>
-   <item row="6" column="1">
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QLabel" name="label">
@@ -243,7 +115,7 @@
         <cursorShape>IBeamCursor</cursorShape>
        </property>
        <property name="text">
-        <string notr="true">0.3.666-beta</string>
+        <string notr="true">5</string>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -265,7 +137,7 @@
      </item>
     </layout>
    </item>
-   <item row="7" column="1">
+   <item row="5" column="1">
     <widget class="QLabel" name="copyrightLabel">
      <property name="cursor">
       <cursorShape>IBeamCursor</cursorShape>
@@ -282,7 +154,7 @@ Copyright &amp;copy; YYYY FlappyCoin Developers</string>
      </property>
     </widget>
    </item>
-   <item row="8" column="1" colspan="2">
+   <item row="6" column="1" colspan="2">
     <widget class="QLabel" name="label_2">
      <property name="cursor">
       <cursorShape>IBeamCursor</cursorShape>
@@ -303,14 +175,7 @@ This product includes software developed by the OpenSSL Project for use in the O
      </property>
     </widget>
    </item>
-   <item row="9" column="1">
-    <widget class="QLabel" name="label_9">
-     <property name="text">
-      <string>Bitcoin Talk       :  https://bitcointalk.org/index.php?topic=1904863.0</string>
-     </property>
-    </widget>
-   </item>
-   <item row="9" column="2" rowspan="3">
+   <item row="7" column="2" rowspan="2">
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -323,27 +188,46 @@ This product includes software developed by the OpenSSL Project for use in the O
      </property>
     </spacer>
    </item>
-   <item row="10" column="1">
-    <widget class="QLabel" name="label_10">
-     <property name="text">
-      <string>ZZZ</string>
+   <item row="0" column="0" rowspan="9">
+    <widget class="QLabel" name="label_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
-   <item row="11" column="1">
-    <widget class="QLabel" name="label_11">
-     <property name="text">
-      <string>Community      :  https://community.flap-pool.world/</string>
-     </property>
-    </widget>
+   <item row="2" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>FlappyCoin FlappyCore5</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
-   <item row="12" column="1">
-    <widget class="QDialogButtonBox" name="buttonBox">
+   <item row="3" column="1" colspan="2">
+    <widget class="Line" name="line">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Ok</set>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string/>
      </property>
     </widget>
    </item>
@@ -352,38 +236,5 @@ This product includes software developed by the OpenSSL Project for use in the O
  <resources>
   <include location="../bitcoin.qrc"/>
  </resources>
- <connections>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>accepted()</signal>
-   <receiver>AboutDialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>360</x>
-     <y>308</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>157</x>
-     <y>274</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>rejected()</signal>
-   <receiver>AboutDialog</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>428</x>
-     <y>308</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>286</x>
-     <y>274</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
