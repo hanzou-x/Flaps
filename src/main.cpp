@@ -1253,57 +1253,57 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1083111)
+    else if(nHeight < 1071615)
     {
         nSubsidy = 10000000 * COIN;
     }
-    else if(nHeight < 1084111)
+    else if(nHeight < 1080000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1100000)
+    else if(nHeight < 1081000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 1101000)
+    else if(nHeight < 1182000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1144111)
+    else if(nHeight < 1183000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 1145111)
+    else if(nHeight < 1190000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1155111)
+    else if(nHeight < 1221000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 1156111)
+    else if(nHeight < 1222000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1166111)
+    else if(nHeight < 1223000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 1167111)
+    else if(nHeight < 1224000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1177111)
+    else if(nHeight < 1225000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
-    else if(nHeight < 1178111)
+    else if(nHeight < 1234000)
     {
         nSubsidy = 5000 * COIN;
     }
-    else if(nHeight < 1188111)
+    else if(nHeight < 1224000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
     else if(nHeight < 1189111)
     {
@@ -1311,7 +1311,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     }
     else if(nHeight < 1120000)
     {
-        nSubsidy = 10000000 * COIN;
+        nSubsidy = 100000 * COIN;
     }
     else if(nHeight < 1121000)
     {
@@ -1329,7 +1329,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     {
         nSubsidy = 300000 * COIN;
     }
-    else if(nHeight < 1175000)
+    else if(nHeight < 1185000)
     {
         nSubsidy = 400000 * COIN;
     }
