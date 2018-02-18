@@ -1,6 +1,9 @@
+Fork correction 
+Friends dont let firends solo mine 
+
 FlappyCoin 
 ================================
-Current version: 5.2.0.0
+Current version: 5.5.5.0
 
 Copyright (c) 8888 Bitcoin Developers
 
